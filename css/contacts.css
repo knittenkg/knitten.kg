@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+}
+.container{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+.header{
+    background-color: #e2c279;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+.header_logo{
+    margin: 10px 0;
+    transition: 0.3s;
+}
+.header_logo:hover{
+    transform: scale(1.2);
+}
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_left{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+.header_menu{
+    display: flex;
+    gap: 31px;
+}
+.menu_item{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    text-transform: uppercase;
+    list-style-type: none;
+    transition: 0.3s;
+}
+.menu_item a:hover{
+    opacity: 0.7;
+}
+.menu_item a{
+    text-decoration: none;
+    color: white;
+}
+.standart_button{
+    padding: 10px 20px;
+    border: 1px solid #937227;
+    border-radius: 5px;
+    background-color: #937227;
+    color: white;
+    transition: 0.3s;
+}
+.standart_button:hover{
+    transform: scale(1.2);
+    background: none;
+    color: #937227;
+}
+.section_title{
+    font-size: 56px;
+    line-height: 69px;
+    font-weight: 700;
+    padding: 40px 0;
+}
+.Contacts{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 80px;
+    background-color: black;
+    color: white;
+}
+.section_title{
+    font-size: 56px;
+    line-height: 69px;
+    font-weight: 700;
+    padding: 40px 0;
+}
+.Contacts_title{
+    margin: 60px 0;
+}
+.Contacts_items{
+    display: flex;
+    gap: 80px;
+}
+.Contacts_items a{
+    text-decoration: none;
+}
+.Contacts_item{
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #e2c279;
+    color: white;
+    transition: 0.3s;
+}
+.Contacts_item:last-child{
+    animation-duration: 0.6s;
+}
+.Contacts_item_title{
+    font-size: 20px;
+    line-height: 28px;
+    padding: 40px 0 20px 0;
+}
+.Contacts_item_subtitle{
+    font-size: 18px;
+    line-height: 24px;
+}
+.Contacts_item ion-icon{
+    font-size: 100px;
+}
+.Contacts_whatsapp:hover{
+    background-color:  #075e54  ;
+    transform: scale(1.2);
+}
+.Contacts_telegram:hover{
+    background-color: #0088cc;
+    transform: scale(1.2);
+}
+.Contacts_instagram:hover{
+    background: url(../img/instagram_background.jpg);
+    background-size: cover;
+    transform: scale(1.2);
+}
+
+
+
+
+.footer{
+    background-color: black;
+    padding-bottom: 40px;
+}
+.footer a{
+    color: white;
+}
+.footer a:hover{
+    color: #937227;
+}
+.footer_item:hover{
+    color: #937227;
+}
+.footer_title{
+    margin-bottom: 200px;
+    color: white;
+}
+.footer_container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer_name{
+    font-size: 32px;
+    line-height: 45px;
+    color: white;
+}
+.footer_item{
+    font-size: 15px;
+    line-height: 28px;
+    color: white;    
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_right{
+    display: flex;
+    gap: 50px;
+}
